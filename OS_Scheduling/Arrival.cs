@@ -11,7 +11,7 @@ namespace OS_Scheduling
         private string processName;
         private int brustTime;
         private int arrivalTime;
-        public int ival;
+        public int ival; //when was this process started
 
         public string ProcessName { get => processName; set => processName = value; }
         public int BrustTime { get => brustTime; set => brustTime = value; }
